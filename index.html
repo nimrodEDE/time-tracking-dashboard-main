@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="contact">
+        <div class="contact-details">
+          <div class="img-container">
+            <img src="./images/image-jeremy.png" alt="" />
+          </div>
+          <p class="name"><span>Report for</span>Jeremy Robson</p>
+        </div>
+        <ul class="period">
+          <li id="dailyBtn">Daily</li>
+          <li class="activeBtn" id="weeklyBtn">Weekly</li>
+          <li id="monthlyBtn">Monthly</li>
+        </ul>
+      </div>
+      <div id="work" class="item work"></div>
+      <div class="item play"></div>
+      <div class="item study"></div>
+      <div class="item exercise"></div>
+      <div class="item social"></div>
+      <div class="item self-care"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
