@@ -16,7 +16,7 @@ const itemMap = {
 
 let jsonData; // Declare jsonData in a higher scope
 
-fetch("/data.json")
+fetch("data.json")
   .then((request) => {
     if (!request.ok) {
       console.log("Oops! Something went wrong.");
